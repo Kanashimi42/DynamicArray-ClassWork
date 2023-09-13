@@ -53,7 +53,7 @@ int DynamicArray::GetSize()
 	return size;
 }
 
-//Добавлено
+//Added
 void DynamicArray::ReSize(int nsize)
 {
 	int* new_ptr = new int[nsize];

@@ -3,7 +3,7 @@
 
 
 
-DynamicArray GetObj() //возврат по значению
+DynamicArray GetObj()
 {
 	DynamicArray obj(3);
 	obj.Input();
@@ -12,7 +12,6 @@ DynamicArray GetObj() //возврат по значению
 }
 void main()
 {
-	system("chcp 1251");
 	DynamicArray a(5); // constructor 1 param
 	a.Input();
 	a.Output();

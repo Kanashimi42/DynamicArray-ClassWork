@@ -16,7 +16,7 @@ public:
 	int* GetPointer();
 	int GetSize();
 
-	//добавлено
+	//added
 	void ReSize(int nsize);
 	void Sort();
 	int Search(int a);
